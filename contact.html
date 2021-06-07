@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cubeify Games</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="images/icon.jpeg">
+    </head>
+    <body>
+        <div class="pixel-art">
+            <div class="container">
+                <div class="logo">
+                    <a href="#"><img src="images/Cuebify_GameJolt.png" alt="logo"></a>
+                </div>
+            <div class="navbar">
+            
+            <div class="icon-bar" onclick="Show()">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            
+            <ul id="nav-lists pixel-art">
+                <li class="close"><span onclick="Hide()">×</span></li>
+                <li><a href="index.html"><h2>Home</h2></a></li>
+                <li><a href="Games.html"><h2>Games</h2></a></li>
+                <li><a href="team.html"><h2>Team</h2></a></li>
+                <li><a href="contact.html"><h2>Contact</h2></a></li>
+                <li><a href="partners.html"><h2>Partners</h2></a></li>
+            </ul>
+            
+            </div>
+            </div>
+            
+            <h1>Contact Cubeify Games</h1>
+            
+            <h2>
+                If you need to reach us for any reason, join our public discord server!
+            </h2>
+            <p>
+                <a href="https://discord.com/invite/RWnKJSXYVF"><h2>Cubify Corner</h2></a>
+            
+            </p>
+            <h2>
+                Or check out our Twitter:
+            </h2>
+            <p>
+                <a href="https://twitter.com/CubeifyGames">Dev Team</a>
+            </p>
+            <p>
+                <a href="https://twitter.com/CubeLovesPixels">Cubically Cube</a>
+            </p>
+            <p>
+                <a href="https://twitter.com/ShebaArtss_">Sheba Art</a>
+            </p>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+    </body>
+</html>

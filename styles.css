@@ -569,8 +569,13 @@ img {
     margin-inline-end: 0px;
     font-weight: bold;}
   img.banner-image {
-    /*width: 50%; */
-    height: 50%;}
+    width: 75%;
+    height: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding 50px;
+    }
   .container .navbar ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -582,13 +587,6 @@ img {
     padding: 0;
     transition: all 0.3s ease 0s;
   }
-  .banner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding 50px;
-    width: 50%;
-    }
   .container .navbar ul li a {
     text-decoration: none;
     color: #999999;

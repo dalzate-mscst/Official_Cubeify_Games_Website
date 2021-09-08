@@ -556,35 +556,6 @@ img {
     color: #ffffff;
     background-color: #300000;
   }
-  div.logo {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    float: left;
-  }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  a {
-    display: block;
-    padding: 8px;
-  }
-  li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
   .h2 {
     text-align: center;
     display: block;

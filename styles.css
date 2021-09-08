@@ -535,7 +535,7 @@ img {
 }
 
 /* On mobile screens (phones) */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
   .prev, .next,.text {
     font-size: 1.5em}
   .card-image {

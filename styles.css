@@ -32,6 +32,7 @@ body {
 }
 
 .h2 {
+  text-align: center;
   display: block;
   font-size: 1.5em;
   margin-block-start: 0.83em;
@@ -165,7 +166,7 @@ icon.image-holder:hover {
 }
 
 a {
-    color:rgb(255, 183, 115);
+    color:rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -547,6 +548,7 @@ img {
     max-width: inherit; 
     max-height: initial;}
   .h2 {
+    text-align: center;
     display: block;
     font-size: 5px;
     margin-block-start: 0.83em;
@@ -624,6 +626,7 @@ img {
     max-height: initial; }
   .h2 {
     display: block;
+    text-align: center;
     font-size: 5px;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;

@@ -16,23 +16,20 @@
                     <a href="#"><img src="images/Cuebify_GameJolt.png" alt="logo"></a>
                 </div>
             <div class="navbar">
-            
-            <div class="icon-bar" onclick="Show()">
-                <i></i>
-                <i></i>
-                <i></i>
-            </div>
-            
-            <ul id="nav-lists pixel-art">
-                <li class="close"><span onclick="Hide()">×</span></li>
-                <li><a href="index.html"><h2>Home</h2></a></li>
-                <li><a href="Games.html"><h2>Games</h2></a></li>
-                <li><a href="team.html"><h2>Team</h2></a></li>
-                <li><a href="contact.html"><h2>Contact</h2></a></li>
-                <li><a href="partners.html"><h2>Partners</h2></a></li>
-            </ul>
-            
-            </div>
+                <div class="icon-bar" onclick="Show()">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+                <ul id="nav-lists pixel-art">
+                    <li class="close"><span onclick="Hide()">×</span></li>
+                    <li><a href="index.html"><h2>Home</h2></a></li>
+                    <li><a href="Games.html"><h2>Games</h2></a></li>
+                    <li><a href="team.html"><h2>Team</h2></a></li>
+                    <li><a href="contact.html"><h2>Contact</h2></a></li>
+                    <li><a href="partners.html"><h2>Partners</h2></a></li>
+                </ul>
+                </div>
             </div>
             
             <h1>Welcome to Cubeify Games!</h1>
@@ -42,45 +39,53 @@
             <h2>
                 We are a virtual game studio mostly based out of the United States of America.
             </h2>
-            <button onclick="document.location='Games.html'">
-                Games
-            </button>
-            <button onclick="document.location='team.html'"">
-                Team
-            </button>
-            <button onclick="document.location='contact.html'"">
-                Contact
-            </button>
-            <button onclick="document.location='partners.html'"">
-                Partners
-            </button>
+            <button onclick="document.location='Games.html'">Games</button>
+            <button onclick="document.location='team.html'">Team</button>
+            <button onclick="document.location='contact.html'">Contact</button>
+            <button onclick="document.location='partners.html'">Partners</button>
         <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
-            
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
-            
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
-            }
-            
-            function showSlides(n) {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("dot");
-              if (n > slides.length) {slideIndex = 1}    
-              if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                  slides[i].style.display = "none";  
-              }
-              for (i = 0; i < dots.length; i++) {
-                  dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
+            function myfunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.classname === "topnav") {
+                    x.classname += " responsive";
+                } else {
+                    x.classname ="topnav";
+                }
             }
             </script>
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+    
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+    
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+    
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+            <script>
+                'undefined' === typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && 
+                (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'})
+                ,_trfd.push({'ap':'cpsh'}, {'server':'p3plcpn10817'})
+            </script>
+            <script>src="https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js"</script>
     </body>
 </html>

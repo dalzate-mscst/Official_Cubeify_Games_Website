@@ -571,10 +571,12 @@ img {
   .container .navbar ul {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: block;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     list-style: none;
+    margin-left: auto;
+    margin-right: auto;
     margin: 0;
     padding: 0;
     transition: all 0.3s ease 0s;

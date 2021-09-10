@@ -561,8 +561,8 @@ img {
     font-size: 1.5em
   }
   .card-image {
-    max-width: 80px; 
-    max-height: 80px;
+    max-width: 120px; 
+    max-height: 120px;
   }
   div.card { 
     align-content: center; 

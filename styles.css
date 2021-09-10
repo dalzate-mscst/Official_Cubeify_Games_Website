@@ -752,7 +752,7 @@ img {
   }
   .flexbox > div {
     /*
-        1/3  - 3 columns per row
+        1/2  - 2 columns per row
         10px - spacing between columns 
     */
     box-sizing: border-box;

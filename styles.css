@@ -538,11 +538,16 @@ img {
 }
 
 /*Laptops*/
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 1600px){
   .card-image {
+    max-width: 250px; 
+    max-height: 250px;
+  }
+  #card-image {
     max-width: 150px; 
     max-height: 150px;
   }
+
 }
 
 /* On mobile screens (mobile) */

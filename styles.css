@@ -519,6 +519,11 @@ img {
   background-color: #717171;
 }
 
+.partners {
+  width:20%;
+  height:auto;
+}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -656,11 +661,19 @@ img {
     color: #fff;
     }
     
+  .partners {
+    width:50%;
+    height:auto;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .prev, .next,.text {
     font-size: 1.5em
+  }
+  .partners {
+    width:80%;
+    height:auto;
   }
   .card-image {
     max-width: 80px; 
@@ -685,9 +698,9 @@ img {
   .h2 {
     text-align: center;
     display: block;
-    font-size: 5px;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
+    font-size: 1px;
+    margin-block-start: 0.63em;
+    margin-block-end: 0.63em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;

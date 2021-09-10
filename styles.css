@@ -561,8 +561,8 @@ img {
     font-size: 1.5em
   }
   .card-image {
-    max-width: 120px; 
-    max-height: 120px;
+    max-width: 80px; 
+    max-height: 80px;
   }
   div.card { 
     align-content: center; 
@@ -667,7 +667,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .prev, .next,.text {
     font-size: 1.5em
   }

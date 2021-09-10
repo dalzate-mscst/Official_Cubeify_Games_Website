@@ -537,6 +537,14 @@ img {
   to {opacity: 1}
 }
 
+/*Laptops*/
+@media only screen and (max-width: 1440px){
+  .card-image {
+    max-width: 150px; 
+    max-height: 150px;
+  }
+}
+
 /* On mobile screens (mobile) */
 @media only screen and (max-width: 1400px) {
   .prev, .next,.text {

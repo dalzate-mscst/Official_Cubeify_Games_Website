@@ -531,7 +531,133 @@ img {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+form {
+  align-content: center;
+  -ms-grid-column-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: block;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.formname {
+  display: block;
+  grid-template-columns: 1fr 3fr;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+div .formname {
+  display: block;
+  text-align: center;
+  align-content: center;
+  }
+.rate .rating {
+  grid-template-columns: 1fr 3fr;
+  list-style: none;
+  margin: auto;
+  padding: auto;
+}
+div.rate{
+  list-style: none;
+  margin: auto;
+  padding: auto;
+}
+.condom .rating ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: block;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 15%;
+  padding: 0 10%;
+  transition: all 0.3s ease 0s;
 
+}
+label {
+  align-content: center;
+  font-family: header;
+  src: url(fonts/OpenSans-Bold.ttf);
+  position: relative;
+}
+.condom .rating ul li a {
+  text-decoration: none;
+  color: #999999;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+  margin: 0 10px;
+  padding: 0 10px;
+  transition: all 0.3s ease 0s;
+}
+div .rate ul li{
+  display: flex;
+  list-style: none;
+  margin: auto;
+  align-content: center;
+  padding: auto;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+}
+div .rate li{
+  display: flex;
+  list-style: none;
+  align-content: center;
+  margin: auto;
+  padding: auto;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+}
+div.formname{
+  align-content: center;
+  margin: auto;
+  padding: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  text-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+}
+.condom .formname ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: block;
+  text-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease 0s;
+  position: relative;
+}
+
+.condom .formname ul li a {
+  text-decoration: none;
+  color: #999999;
+  font-size: 0.75;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+  padding: 0 10px;
+  transition: all 0.3s ease 0s;
+}
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}

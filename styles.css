@@ -531,94 +531,58 @@ img {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+/* Form */
 form {
   align-content: center;
   -ms-grid-column-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: block;
+  display: table;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   text-align: center;
   margin: 0 auto;
   padding: 0 auto;
+  vertical-align: middle;
+  list-style: none;
 }
 .formname {
+  align-items: center;
+  text-align: center;
+  align-content: center;
   display: block;
   grid-template-columns: 1fr 3fr;
   text-align: center;
-  margin: 0 auto;
-  padding: 0 auto;
+  height: auto;
+  width: auto;
+  margin: auto;
+  padding: auto;
 }
 div .formname {
   display: block;
+  align-items: center;
   text-align: center;
   align-content: center;
-  }
-.rate .rating {
-  grid-template-columns: 1fr 3fr;
-  list-style: none;
-  margin: auto;
-  padding: auto;
 }
 div.rate{
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  display: block;
   list-style: none;
   margin: auto;
   padding: auto;
-}
-.condom .rating ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: block;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0 15%;
-  padding: 0 10%;
-  transition: all 0.3s ease 0s;
-
+  height: auto;
+  width: auto;
 }
 label {
+  align-items: center;
   align-content: center;
   font-family: header;
   src: url(fonts/OpenSans-Bold.ttf);
   position: relative;
 }
-.condom .rating ul li a {
-  text-decoration: none;
-  color: #999999;
-  font-size: 0.75em;
-  text-transform: uppercase;
-  display: block;
-  height: 60px;
-  line-height: 60px;
-  cursor: pointer;
-  margin: 0 10px;
-  padding: 0 10px;
-  transition: all 0.3s ease 0s;
-}
-div .rate ul li{
-  display: flex;
-  list-style: none;
-  margin: auto;
-  align-content: center;
-  padding: auto;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  position: relative;
-}
-div .rate li{
-  display: flex;
-  list-style: none;
-  align-content: center;
-  margin: auto;
-  padding: auto;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  position: relative;
-}
 div.formname{
-  align-content: center;
   margin: auto;
   padding: auto;
   display: -webkit-box;
@@ -628,6 +592,9 @@ div.formname{
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   position: relative;
+  align-items: center;
+  text-align: center;
+  align-content: center;
 }
 .condom .formname ul {
   display: -webkit-box;

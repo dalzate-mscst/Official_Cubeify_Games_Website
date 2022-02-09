@@ -651,7 +651,7 @@ div.formname{
 /* On mobile screens (mobile) */
 @media only screen and (max-width: 1400px) {
   .prev, .next,.text {
-    font-size: 1.5em
+    font-size: 1.5em;
   }
   .card-image {
     max-width: 80px; 
@@ -673,10 +673,13 @@ div.formname{
     color: #ffffff;
     background-color: #300000;
   }
+  .container > h2 {
+    font-size: 2%;
+  }
   .h2 {
     text-align: center;
     display: block;
-    font-size: 5px;
+    font-size: 2px;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;

@@ -784,10 +784,28 @@ div.formname{
     height:auto;
   }
 }
+/*small mobile*/
+@media only screen and (max-width: 320px) {
+  h1{
+    font-size: medium;
+  }
+  h2{
+    font-size: smaller;
+  }
+  .container .logo {
+    max-width: 40%;
+  }
+}
 
 @media only screen and (max-width: 450px) {
   .prev, .next,.text {
     font-size: 1.5em;
+  }
+  h1{
+    font-size: large;
+  }
+  h2{
+    font-size: medium;
   }
   .partners {
     width:80%;
@@ -915,7 +933,7 @@ div.formname{
     }
 
     .container .logo {
-      max-width: 250px;
+      max-width: 75%;
       padding: 0 5px;
       overflow: hidden;
     }
@@ -930,4 +948,5 @@ div.formname{
       -ms-flex-align: center;
       align-items: center;
     }
+  
 }

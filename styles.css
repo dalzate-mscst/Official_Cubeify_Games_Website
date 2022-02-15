@@ -948,5 +948,39 @@ div.formname{
       -ms-flex-align: center;
       align-items: center;
     }
-  
+}
+/*Even smaller phones*/
+@media only screen and (max-width: 240px) {
+  .flexbox > div {
+    /*
+        1/1  - 1 columns per row
+        10px - spacing between columns 
+    */
+    box-sizing: border-box;
+    margin: 15px 15px 0 0;
+    width: calc(1/1*100% - (1 - 1/1)*15px);
+    background: #444444;
+    padding: 10px;
+    color: #fff;
+    }
+    /*
+    align last row columns to the left
+    2n - 2 columns per row
+    */
+    .flexbox > div:nth-child(1n) {
+      margin-right: 0;
+      }
+      
+      .flexbox::after {
+      content: '';
+      flex: auto;
+      }
+      
+      /*
+      remove top margin from first row
+      -n+1 - 1 columns per row 
+      */
+      .flexbox > div:nth-child(-n+1) {
+      margin-top: 0;
+      }
 }

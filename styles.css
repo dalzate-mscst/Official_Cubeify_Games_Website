@@ -158,7 +158,7 @@ icon.image-holder:hover {
     background-color: #bbbbbb;
 }
 
-
+/*
 .pixel-art {
     image-rendering: -moz-crisp-edges;
     image-rendering: -webkit-crisp-edges;
@@ -166,7 +166,7 @@ icon.image-holder:hover {
     image-rendering: crisp-edges;
     -webkit-font-smoothing: none;
     mix-blend-mode: normal;
-}
+}*/
 
 a {
     color:rgb(255, 255, 255);

@@ -33,7 +33,13 @@ body {
     -webkit-font-smoothing : none;
     text-align: center;
 }
-
+p {
+  src: url(fonts/OpenSans-Bold.ttf);
+  font-family: regular;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
 .h2 {
   text-align: center;
   display: block;

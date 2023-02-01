@@ -22,14 +22,16 @@ body {
     position:relative;
     margin: 0;
     background: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
     ),
-    url("images/icon.jpeg");
+    url("images/CubeifyGames_Sliding_Background_1.gif");
     /*background-image: url("images/icon.jpeg");
     background-repeat: repeat;*/
     height: 100%;
     color:white;
+    -o-font-smoothing: none;
+    -moz-font-smoothing: none;
     -webkit-font-smoothing : none;
     text-align: center;
 }

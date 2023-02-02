@@ -6,8 +6,15 @@
 @font-face {
     font-family: header;
     src: url(fonts/dpcomic.ttf);
-}
-
+}/*
+html{
+  background-color: #2b0000;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+  url("images/CubeifyGames_Sliding_Background_1.gif");
+}*/
 h1 {
     font-size: 250%;
     color:white
@@ -18,6 +25,7 @@ h1 {
 }
 
 body {
+  background-color: #2b0000;
     font-family: header;
     position:relative;
     margin: 0;
@@ -193,8 +201,13 @@ li {
   height: 300px;
 
 }
+.card-image:hover {
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 15px 20px rgba(34, 34, 34, 0.4);
+  transform: translateY(-7px);
+}
 .banner-image {
-  height: 75%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -205,6 +218,11 @@ li {
     width:100%;
     height: auto;
     
+}
+.game-image:hover {
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 15px 20px rgba(34, 34, 34, 0.4);
+  transform: translateY(-5px);
 }
 .footer {
     position: absolute;
@@ -346,10 +364,17 @@ img.banner-image {align-content: center;}
   padding: 0 10px;
   transition: all 0.3s ease 0s;
 }
-
+.navbar ul li:hover{
+  transition: 0.3s ease-in-out;/*
+  box-shadow: 0px 15px 20px rgba(34, 34, 34, 0.4);*/
+  transform: translateY(-3px);
+}
 .container .navbar ul li a:hover {
   color: #ffffff;
   background-color: #300000;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 15px 20px rgba(34, 34, 34, 0.4);
+  transform: translateY(-3px);
 }
 
 .container .navbar ul .close {
@@ -651,16 +676,16 @@ div.formname{
 /*Laptops*/
 @media only screen and (max-width: 1600px){
   .card-image {
-    max-width: 250px; 
-    max-height: 250px;
+    width: 100%; 
+    height: auto;
   }
   #card-image {
-    max-width: 150px; 
-    max-height: 150px;
+    width: 100%; 
+    height: auto;
   }
 
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (max-width: 1000px) {
 
   img.banner-image {
     width: 70%;
@@ -683,7 +708,7 @@ div.formname{
     background-size: cover; /*Version Standard*/
     }
 }
-/* On mobile screens (mobile) */
+/* Smaller laptops/Tablet screens*/
 @media only screen and (max-width: 1400px) {
   .prev, .next,.text {
     font-size: 1.5em;
@@ -699,8 +724,8 @@ div.formname{
     margin-right: auto;
     overflow: hidden;
     justify-content: center;
-    max-width: 80px; 
-    max-height: 80px;
+    width: 100%; 
+    height: auto;
   }
   div.card { 
     align-content: center; 
@@ -854,19 +879,22 @@ div.formname{
   }
 }
 /*small mobile*/
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 399px) {
   h1{
     font-size: medium;
   }
   h2{
     font-size: smaller;
   }
-  .container .logo {
-    max-width: 40%;
+  body{
+    font-size: smaller;
+  }
+  .container .logo a img {
+    max-width: 50%;
   }
 }
-
-@media only screen and (max-width: 450px) {
+/*Medium mobile*/
+@media only screen and (max-width: 500px) {
   .prev, .next,.text {
     font-size: 1.5em;
   }
@@ -876,13 +904,16 @@ div.formname{
   h2{
     font-size: medium;
   }
+  .container .logo a img {
+    max-width: 60%;
+  }
   .partners {
     width:80%;
     height:auto;
   }
   .card-image {
-    max-width: 80px; 
-    max-height: 80px;
+    width: 100%; 
+    height: auto;
   }
   div.card { 
     align-content: center; 
@@ -1018,8 +1049,12 @@ div.formname{
       align-items: center;
     }
 }
-/*Even smaller phones*/
+/*Smaller Mobile*/
 @media only screen and (max-width: 240px) {
+  body{
+    font-size: 0.5em;
+  }
+
   .flexbox > div {
     /*
         1/1  - 1 columns per row

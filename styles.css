@@ -196,6 +196,19 @@ li {
     text-align: left;
 }
 
+.Patreon {
+  width: 40px;
+  height: 40px;
+
+}
+.Patreon:hover {
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 15px 20px rgba(34, 34, 34, 0.4);
+  transform: translateY(-7px);
+  width: 45px;
+  height: 45px;
+}
+
 .card-image {
   width: 300px;
   height: 300px;

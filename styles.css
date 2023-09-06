@@ -380,14 +380,16 @@ img.banner-image {align-content: center;}
 .navbar ul li:hover{
   transition: 0.3s ease-in-out;/*
   box-shadow: 0px 15px 20px rgba(34, 34, 34, 0.4);*/
-  transform: translateY(-3px);
+  transform: translateY(-4px);
+  font-size: 18px;
 }
 .container .navbar ul li a:hover {
   color: #ffffff;
   background-color: #300000;
   transition: 0.3s ease-in-out;
   box-shadow: 0px 15px 20px rgba(34, 34, 34, 0.4);
-  transform: translateY(-3px);
+  transform: translateY(-4px);
+  font-size: 18px;
 }
 
 .container .navbar ul .close {
